@@ -1,0 +1,29 @@
+/* PHASE 9: Forms */
+.thumb {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+
+}
+
+.input {
+  display: block;
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+.submit {
+  
+}
+
+.content-sub {
+  display: flex;
+}
+
+input:hover {
+
+}
