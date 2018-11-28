@@ -1,0 +1,45 @@
+h1 {
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 60px;
+}
+
+figure {
+  display: block;
+}
+
+body {
+  background-image: url('http://fc05.deviantart.net/fs70/f/2013/238/5/7/just_ride_by_hellsing4682-d6jw9m0.png');
+  background-size: cover;
+}
+
+.board {
+  padding: 0;
+  display: flex;
+  margin: 0 auto;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 310px;
+  height: 310px;
+  border :5px solid black;
+}
+
+.square {
+  display: flex;
+  height: 95px;
+  width: 95px;
+  background-color: grey;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+  background-image: url('https://prettymuchamazing.com/.image/t_share/MTMyMDc3NDIxMjQyNDAyODI2/lana-del-reygif.gif');
+  background-size: 95px;
+}
