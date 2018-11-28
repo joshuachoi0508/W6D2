@@ -21,8 +21,9 @@ class View {
       $square.css('background-image', 'url(https://66.media.tumblr.com/8055750f108cf97734f557269f22133b/tumblr_olom1ps6je1uf6f29o1_400.gif)').css('background-size', '95px');
     }
 
-    if (this.game.isOver()) {
-      alert(`${this.game.winner()} WINS!`);
+    if (this.game.isOver()){
+      debugger;
+      alert("Lana Wins");
     }
   }
 
